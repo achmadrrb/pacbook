@@ -1,0 +1,22 @@
+version: 2
+
+sources:
+  - name: pacbook-dwh
+    database: pacbook-dwh 
+    schema: pacbookstore
+    tables:
+      - name: address_status
+      - name: address
+      - name: author
+      - name: book_author
+      - name: book_language
+      - name: book
+      - name: country
+      - name: cust_order
+      - name: customer_address
+      - name: customer
+      - name: order_history
+      - name: order_line
+      - name: order_status
+      - name: publisher
+      - name: shipping_method
